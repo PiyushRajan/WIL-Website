@@ -6,6 +6,7 @@ export const Maindiv = styled.div`
   background: #000000;
   border-radius: 0px 10.417vw 0px 0px;
   margin-top: 18vw;
+  position: relative;
 `;
 
 export const Innerdiv = styled.div`
@@ -13,20 +14,20 @@ export const Innerdiv = styled.div`
 `;
 
 export const Leftimage = styled.img`
-  max-width: 37.917vw;
-  max-height: 35.616vw;
+  width: 18vw;
+  height: 27.2vw;
   position: absolute;
   z-index: 0;
-  top: 553.5vw;
+  top: 14.9vw;
 `;
 
 export const Image = styled.img`
-  max-width: 51.497vw;
-  max-height: 48.372vw;
+  width: 37vw;
+  height: 41.9vw;
   position: absolute;
   z-index: 0;
   right: 0px;
-  top: 539vw;
+  top: 0vw;
 `;
 
 export const Leftdiv = styled.div`
