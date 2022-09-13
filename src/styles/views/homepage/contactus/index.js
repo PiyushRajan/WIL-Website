@@ -35,7 +35,7 @@ export const Ques = styled.div`
   margin-top: 3vw;
 `;
 
-export const Form = styled.div`
+export const FormWrapper = styled.div`
   width: 75vw;
   height: 51.563vw;
   background: #ffffff;
@@ -47,7 +47,7 @@ export const Form = styled.div`
   display: flex;
 `;
 
-export const Left = styled.div`
+export const FormLeftWrapper = styled.div`
   box-sizing: border-box;
   width: 33.854vw;
   height: 51.497vw;
@@ -59,19 +59,19 @@ export const Left = styled.div`
   position: relative;
 `;
 
-export const Top = styled.img`
+export const TopCornerImage = styled.img`
   margin-left: 10.7vw;
   width: 22.982vw;
   opacity: 0.5;
 `;
 
-export const Bottom = styled.img`
+export const BottomCornerImage = styled.img`
   width: 22.982vw;
   margin-top: 6.6vw;
   opacity: 0.5;
 `;
 
-export const Ball = styled.img`
+export const BallImage = styled.img`
   width: 9.833vw;
   position: absolute;
   opacity: 0.5;
@@ -79,7 +79,7 @@ export const Ball = styled.img`
   left: 1.953vw;
 `;
 
-export const Project = styled.div`
+export const Projectpara = styled.div`
   width: 27.279vw;
   font-weight: 700;
   font-size: 3.516vw;

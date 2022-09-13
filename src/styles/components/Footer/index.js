@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Maindiv = styled.div`
+export const Footerwrapper = styled.div`
   width: 98.633vw;
   height: 42.188vw;
   background: #000000;
@@ -9,7 +9,7 @@ export const Maindiv = styled.div`
   position: relative;
 `;
 
-export const Innerdiv = styled.div`
+export const Innerwrapper = styled.div`
   display: flex;
 `;
 
@@ -30,7 +30,7 @@ export const Image = styled.img`
   top: 0vw;
 `;
 
-export const Leftdiv = styled.div`
+export const Leftwrapper = styled.div`
   width: 45.573vw;
   margin-left: 12vw;
   height: 35.807vw;
