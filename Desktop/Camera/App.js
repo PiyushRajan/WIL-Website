@@ -50,11 +50,11 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      {/* {state.photo === '' ? (
+      {state.photo === '' ? (
         <Text>No Image</Text>
       ) : (
         <Image source={{uri: state.photo}} style={styles.image} />
-      )} */}
+      )}
       <View style={styles.wrapBtn}>
         <TouchableOpacity onPress={openCamera}>
           <Text>Open Camera</Text>
